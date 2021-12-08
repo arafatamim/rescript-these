@@ -1,0 +1,30 @@
+{
+  "name": "rescript-these",
+  "version": "1.0.0",
+  "description": "An either-or-both data type implementation in ReScript",
+  "scripts": {
+    "prepare": "rescript clean -with-deps && rescript build",
+    "build": "rescript build",
+    "start": "rescript build -w",
+    "clean": "rescript clean"
+  },
+  "keywords": [
+    "bucklescript",
+    "reasonml",
+    "rescript"
+  ],
+  "author": "Tamim Arafat <tamim.arafat@gmail.com>",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arafatamim/rescript-these.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arafatamim/rescript-these/issues"
+  },
+  "homepage": "https://github.com/arafatamim/rescript-these#readme",
+  "devDependencies": {
+    "rescript": "^9.1.4"
+  }
+}

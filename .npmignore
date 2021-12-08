@@ -1,0 +1,16 @@
+.DS_Store
+.vscode
+.merlin
+.bsb.lock
+npm-debug.log
+pnpm-debug.log
+/lib/bs/
+/lib/js/
+/lib/ocaml/
+/node_modules/
+debug.log
+*.cmi
+*.cmj
+*.cmt
+*.bs.js
+/examples/
