@@ -45,3 +45,5 @@ let isThis: t<'a, 'b> => bool
 let isThat: t<'a, 'b> => bool
 
 let isBoth: t<'a, 'b> => bool
+
+let fromOptions: (option<'a>, option<'b>) => option<t<'a, 'b>>

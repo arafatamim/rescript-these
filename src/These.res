@@ -117,3 +117,11 @@ let isBoth = opt =>
   | These(_) => true
   | _ => false
   }
+
+let fromOptions = (opt1, opt2) =>
+  switch (opt1, opt2) {
+  | (None, None) => None
+  | (Some(a), None) => Some(This(a))
+  | (None, Some(b)) => Some(That(b))
+  | (Some(a), Some(b)) => Some(These(a, b))
+  }
